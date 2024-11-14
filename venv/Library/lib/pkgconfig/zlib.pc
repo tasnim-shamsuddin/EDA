@@ -1,0 +1,13 @@
+prefix=C:/ineuron_class/EDA/venv/Library
+exec_prefix=C:/ineuron_class/EDA/venv/Library
+libdir=C:/ineuron_class/EDA/venv/Library/lib
+sharedlibdir=C:/ineuron_class/EDA/venv/Library/lib
+includedir=C:/ineuron_class/EDA/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
